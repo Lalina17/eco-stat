@@ -1,0 +1,92 @@
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    background:     linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ), url(/img/eco5.png) center no-repeat;
+    background-size: cover;
+    height: 590px;
+
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+   }
+.container{
+   font: 35px normal Roboto;
+   color: #FFFFFF;
+   margin-bottom: 70px;
+   width: 250px;
+   line-height: 48px;
+   margin-right: 60px;
+}
+.cerd-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   margin-right: 10px;
+   height: 250px;
+   margin-right: 50px;
+}
+.card{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+
+.container_main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 180px;
+   height: 180px;
+}
+.img{
+   background: url(/img/eco4.png) no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.img2{
+   background: url(/img/eco3.png) no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.img3{
+   background: url(/img/eco2.png) no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.img4{
+   background: url(/img/eco1.png) no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.top-text{
+   font-size: 45px;
+   color: #D5F6E0;
+}
+.text{
+   height: 70px;
+   font-size: 26px;
+   color: #FFFFFF;
+   width: 180px;
+   text-align: center;
+   margin-bottom: 70px;
+}
+.top{
+  font-size: 26px;
+  color: #FFFFFF;
+}
+span {
+   font: 22px Roboto;
+}
+.text_line {
+    line-height: 30px;
+    margin-top: 70px;
+}
